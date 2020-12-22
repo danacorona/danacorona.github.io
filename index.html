@@ -9,8 +9,14 @@
     <!-- Link to Bootstrap CSS file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <!-- Link to Bootswatch Theme -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css">
+
     <!-- Link to my customized CSS file -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Script tag for Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
 
 
@@ -21,7 +27,7 @@
         <h1 id="top">Dana Corona</h1>
 
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +60,7 @@
                 <!-- Column Containing My Photo Begins -->
                 <div class="col-md-4">
                     <!-- My Photo -->
-                    <img src="images/DanaMain_Edit.jpg" alt="Image of Dana Corona" width="300" class="img-thumbnail">
+                    <img src="images/DanaMain_Edit.jpg" alt="Image of Dana Corona" width="300" class="img-thumbnail img-fluid">
                 </div>
                 <!-- Column Containing My Photo Ends -->
 
@@ -64,14 +70,14 @@
 
                     <!-- About Me Header -->
                     <div class="row">
-                        <div col="col-md-12">
+                        <div class="col-md-12">
                             <h2>About Me</h2>
                         </div>
                     </div>
 
                     <!-- About Me Text -->
                     <div class="row">
-                        <div col="col-md-12">
+                        <div class="col-md-12">
                             <p>
                                 Great to meet you! My name is Dana and I am a web developer based in Austin, TX! Building websites has been a dream of mine for so long and I am very excited that I get to live my dream.<br><br>
                                 Coding for me has always been a fun challenge! My first line of code I performed was as a little kid on a Nickelodeon forum where they were showing kids how to change the color of their text. I convinced my step father that I <strong>NEEDED</strong> to change my font color to pink and he helped me!
@@ -81,6 +87,7 @@
                             </p>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -89,7 +96,7 @@
 
     <footer>
         <!-- Footer Content -->
-        <nav class="navbar fixed-bottom navbar-light bg-light" class="sticky-top">
+        <nav class="navbar fixed-bottom navbar-dark bg-primary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#top">Back to Top</a>
               <p>&copy; 2020 Dana Corona</p>
