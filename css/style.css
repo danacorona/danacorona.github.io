@@ -1,0 +1,11 @@
+.hide {
+    display: none;
+}
+
+.img-thumbnail {
+    width: 400px;
+}
+
+a {
+    font-weight: bold;
+}
